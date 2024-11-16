@@ -1,0 +1,5 @@
+site_name: Bartosz Cisek
+site_url: https://bartoszcisek.github.io/
+theme:
+  name: material
+docs_dir: ../docs
