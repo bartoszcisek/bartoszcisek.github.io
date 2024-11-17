@@ -1,1 +1,1 @@
-This is only placeholder, please visit [bartoszcisek.github.io](https://hartoszcisek.github.io)
+This is only placeholder, please visit [www.cisek.io](https://www.cisek.io)
