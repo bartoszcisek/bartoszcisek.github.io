@@ -2,4 +2,63 @@ site_name: Bartosz Cisek
 site_url: https://bartoszcisek.github.io/
 theme:
   name: material
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+  palette:
+    - scheme: default
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 docs_dir: ../docs
+nav:
+  - Intro: index.md
+  - About: about.md
+
+plugins:
+  - monorepo
+  - privacy
+  - search:
+      lang: [en]
+  - blog
+  - social
+
+markdown_extensions:
+  - meta
+  - abbr
+  - attr_list
+  - footnotes
+
+copyright: Copyright &copy; 2024 Bartosz Cisek
+extra:
+  alternate:
+    - name: Polski
+      link: /pl/
+      lang: pl
+    - name: English
+      link: /en/
+      lang: en
+  consent:
+    actions:
+      - accept
+      - manage
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bartoszcisek
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/bartosz.cisek
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/bartke_pl/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bartoszcisek/
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/Ugy2dQd
